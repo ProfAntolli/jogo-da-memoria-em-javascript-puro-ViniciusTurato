@@ -1,7 +1,8 @@
 Ola, esse é o meu projeto de Jogo da Memoria, todas as artes e musica foram feitas por mim, espero que gostem do resultado! :D
 
 ![Captura de tela](https://github.com/ProfAntolli/jogo-da-memoria-em-javascript-puro-ViniciusTurato/assets/168566319/cc81b92e-3f13-429e-bbb5-02c62272b97a)
-imagem do Jogo.
+![Captura de tela 2](https://github.com/ProfAntolli/jogo-da-memoria-em-javascript-puro-ViniciusTurato/assets/168566319/0ab2af54-57e4-4322-9caf-249bd4c329fc)
+imagems do Jogo.
 
 
 
