@@ -1,0 +1,68 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+height: 115vh;
+display: flex;
+background-image: url(images/background.png);
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+background-color: black;
+}
+
+
+audio{
+    width: 18.5%;
+    height: 5.5%;
+    position: absolute;
+}
+
+.jogo {
+    width: 640px;
+    height: 640px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap; 
+    perspective: 1000px;
+}
+
+.carta {
+    width: calc(25% - 20px);
+    height: calc(37.5% - 20px);
+    margin: 5px;
+    position: relative;
+    transform: scale(1) rotate(0deg);
+    transform-style: preserve-3d;
+    transition: transform .5s;
+}
+
+.carta:active {
+transform: scale(1.085) rotate(10deg);
+transition: transform 0.1s;
+}
+
+.carta.flip {
+    transform: rotateY(180deg);
+}
+
+.frente,
+.verso {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: absolute;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.034);
+    backface-visibility: hidden;
+}
+
+.frente
+{
+    transform: rotateY(180deg);   
+}
